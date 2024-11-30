@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="slider-container">
+        <div class="slider">
+            <div class="container">
+                <div class="slidy">
+                    <h1 class="hello">Введите данные перед прохождением теста</h1>
+                    <div class="yeat">
+                        <fieldset class="fil">
+                            <form action="" name="spider" class="fors" novalidate>
+
+
+                                <label for="names">Ваше имя</label>
+                                <input class="fil" id="names" type="text" name="names" pattern="[А-ЯЁ][а-яё]+" required>
+                                <label class="error" for="names"></label>
+                                <label for="date">Дата рождения</label>
+                                <input class="fil" id="date" type="date" name="date" min="1904-01-01" max="2024-10-12" required>
+                                <label class="error" for="date"></label>
+                                <label for="gender">Пол</label>
+                                <input type="radio" name="gender" value="man"> Мужчина
+                                <input type="radio" name="gender"  value="woman"> Женщина
+                                <input class="column1" type="submit" value="Пройти тест">
+
+
+
+
+
+
+
+                            </form>
+                        </fieldset>
+
+                    </div>
+
+
+                </div>
+
+                <div class="slidy">
+                    <div class="general">
+                        <form action="" name="test" novalidate>
+
+                            <legend class="hello">Пройдите тест по The Elder Scrolls: Oblivion</legend>
+                            <img src="pic1.jpg" alt="2slide img" width="500px" style="margin-left:50px;">
+
+                            <label for="gor">В каком городе Человек-Паук спасает мир?</label>
+                            <input id="gor" class="fil" type="text" name="gor" pattern="[Нн]ью-Йорк" required>
+                            <label for="sch">Кто был первым злодеем в фильме 2002 года?</label>
+                            <input id="sch" class="fil" type="text" name="sch" pattern="[Зз]елёный гоблин" required>
+                            <label for="q1">Как зовут лучшего друга Питера?</label>
+                            <input type="radio" name="q1" value="0"> <span>Доктор Стрэндж</span>
+                            <input type="radio" name="q1" value="0"> <span>Гари Озборн</span>
+                            <input type="radio" name="q1" value="1"> <span>Нед</span>
+                            <label for="q2">Что нужно Человеку-Пауку, чтобы использовать свои паутины в фильме?</label>
+                            <input type="radio" name="q2" value="0"> <span>костюм</span>
+                            <input type="radio" name="q2" value="1"> <span>силы</span>
+                            <input type="radio" name="q2" value="0"> <span>вера в удачу</span>
+                            <label for="q3">Как зовут главную любовь Питера Паркера?</label>
+                            <input type="radio" name="q3" value="0"> <span>Гвен Стейси</span>
+                            <input type="radio" name="q3" value="0"> <span>Капитан Марвел</span>
+                            <input type="radio" name="q3" value="1"> <span>Мэри Джейн</span>
+                            <input class="column" type="submit" value="Узнать результат">
+
+
+
+
+
+
+
+
+                        </form>
+                       
+
+
+                    </div>
+                    <button class="column3" id="knopka">Назад</button>
+                </div>
+                <div class="slidy">
+                    <div class="form1">
+                        <h2 class="hello">Результат тестирования:</h2>
+                        <div id="print"></div>
+                        <div class="print" id="print1"></div>
+                        <button class="column2" id="knopka2">Повторить</button>
+                       
+
+
+                    </div>
+
+                </div>
+
+            </div>
+        </div>
+        
+
+
+    </div>
+
+
+
+    <script src="script.js"></script>
+</body>
+
+</html>

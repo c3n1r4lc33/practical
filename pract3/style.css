@@ -1,0 +1,130 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Mono+One&display=swap');
+:root {
+    --per: 0px;
+}
+.slider-container {
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+}
+/*отображает области внетри себя (600px) остальное скрывает*/
+.slider{
+    overflow: hidden;
+    display: flex;
+    width: 600px;
+}
+/*В коте лежат котята а еще он трансформатор */
+.container{
+    display: flex;
+    transform: translate(var(--per));
+    transition: 1.5s;
+}
+.slidy {
+    width: 600px;
+    height: 1170px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    transition: 1s;
+    background: linear-gradient(45deg, rgb(255, 255, 255), rgb(181, 171, 171));
+    border-style: double;
+    border-radius: 1em;
+    border: 1px;
+   
+    
+  
+
+}
+label, input { 
+    display: block;  
+    margin: 10px 0 10px 10px;
+    font-size: 20px;
+}
+input[type="radio" i] + span {
+    margin: 3px 3px 0px 10px;
+
+}
+body {
+   background-image: url(back.jpg);
+}
+
+.hello{
+    font-size: 25px;
+    font-family: "Rubik Mono One", monospace;
+    margin: 10px;
+    margin-left: 25px;
+}
+/*Это для кнопоки 1 */
+.column {
+    margin-left: 130px;
+    margin-top: 20px;
+    border-color: #ffffff;
+}
+/*Это для кнопки 2 */
+.column1{
+    margin-left: 70px;
+    margin-top: 80px;
+    border-color: rgb(255, 255, 255);
+    
+}
+
+.fil{
+    border-radius: 30px;
+    border: crimson;
+}
+.error{
+    color: rgb(255, 0, 60);
+    font-size: 15px;
+    font-family: cursive;
+}   
+.print{
+    display: flex;
+    flex-direction: column;
+    box-shadow: inset 2px 2px 5px rgba(154, 147, 140, 0.5), 4px 6px 3px rgba(82, 58, 58);
+    font-size: 25px;
+    margin: 10px;
+    margin-left: 25px;
+    text-align: center;
+    font-family: "Rubik Mono One", monospace;
+    color: rgb(0, 0, 0);
+    
+
+}
+.column2{
+    margin-left: 200px;
+    margin-top: 80px;
+    background-color: rgb(248, 233, 242);
+    border-color: rgb(255, 255, 255);
+    margin-bottom: 10px;
+    font-size: 20px;
+    
+    
+}
+.column3{
+    margin-left: 230px;
+    margin-top: -38px;
+    border-color: rgb(255, 255, 255);
+    margin-bottom: 10px;
+    font-size: 20px;
+    color: rgb(0, 0, 0);
+    
+
+}
+.column1:hover {
+    color: #ff0000;
+    background-color: #4368cf;
+}
+.column2:hover {
+    color: #ff0000;
+    background-color: #4368cf;
+}
+.column3:hover {
+    color: #ff0000;
+    background-color: #4368cf;
+}
+.column:hover {
+    color: #ff0000;
+    background-color: #4368cf;
+}
+
