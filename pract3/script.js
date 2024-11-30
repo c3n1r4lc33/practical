@@ -60,4 +60,3 @@ function atback(){
 }
 const btnshit = document.getElementById("btnshit");
 btnshit.addEventListener("click", atback);
-
